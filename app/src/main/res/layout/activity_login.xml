@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_dashboard_login_bg"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:id="@+id/login_parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <ImageView
+                android:id="@+id/splashlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/ic_login" />
+
+            <EditText
+                android:id="@+id/text_emailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/splashlogo"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/gray_outline_round"
+                android:gravity="center"
+                android:hint="@string/title_email_id"
+                android:drawablePadding="15dp"
+                android:textColorHint="@color/maintenace_date_color_gray"
+                android:textColor="@color/black_text_color"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:maxLines="1"
+                android:theme="@style/editTextStyle" />
+
+
+            <EditText
+                android:id="@+id/text_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_emailid"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gray_outline_round"
+                android:drawablePadding="15dp"
+                android:gravity="center"
+                android:hint="@string/title_password"
+                android:textColorHint="@color/maintenace_date_color_gray"
+                android:textColor="@color/black_text_color"
+                android:inputType="numberPassword"
+                android:maxLength="6"
+                android:padding="12dp"
+                android:maxLines="1"
+                android:theme="@style/editTextStyle" />
+
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_password"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_button_selector"
+                android:gravity="center"
+                android:padding="10dp"
+                android:stateListAnimator="@null"
+                android:text="@string/button_sign"
+                android:textAllCaps="false"
+                android:textColor="@color/splashbg"
+                android:textSize="20sp"
+
+                android:textStyle="normal">
+
+            </Button>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

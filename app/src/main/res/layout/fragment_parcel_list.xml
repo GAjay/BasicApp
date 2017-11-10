@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="com.basic.fragment.ParcelListFragment">
+
+    <ListView
+        android:id="@+id/parcel_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:background="@android:color/transparent"
+        android:dividerHeight="15dp"
+        android:scrollbars="@null"
+        android:layout_margin="20dp"></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/empty_list_text_view"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/black_text_color"
+        android:visibility="gone"
+        android:text="@string/no_data_found"/>
+</FrameLayout>

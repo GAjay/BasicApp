@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/drawable_cardview_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/title_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:background="@android:color/transparent"
+            android:weightSum="3">
+
+            <com.basic.views.DwellHandsenTextView
+                android:id="@+id/maintenance_title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="title"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <com.basic.views.DwellHandsenTextView
+                android:id="@+id/reported_date_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="2"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="TextView"
+                android:textColor="@color/maintenace_date_color_gray"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:id="@+id/view_dotted_divider_title"
+            android:layout_below="@+id/title_linear_layout"
+            android:background="@drawable/drawable_dotted_divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layerType="software" />
+
+        <com.basic.views.DwellTextView
+            android:id="@+id/maintenance_description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_linear_layout"
+            android:gravity="left"
+            android:minLines="2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="@string/issue_date"
+            android:textColor="@color/login_edit_text_hint_color"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/maintenance_description_text_view"
+            android:id="@+id/maintenance_status_background"
+            android:background="@drawable/drawable_bottom_corner_round_bg_green">
+            <com.basic.views.DwellTextViewBold
+                android:id="@+id/maintenance_status_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="OUT"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:gravity="left"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splashbg">#FFF</color>
+    <color name="colorPrimary">#505050</color>
+    <color name="colorPrimaryDark">#555555</color>
+    <color name="colorAccent">#555555</color>
+    <color name="textColorSecondary">#555555</color>
+    <color name="black">#000</color>
+    <color name="dasboard_parcel">#0074bd</color>
+    <color name="login_bg">#FBE9E9</color>
+    <color name="logininput">#B2B2B2</color>
+    <color name="login_button_bg">#FFCE34</color>
+    <color name="yellow_dark">#FFEDBE28</color>
+    <color name="input_text_color">#4A4A4A</color>
+    <color name="alert_negative_text_color">#f75752</color>
+    <color name="alert_positive_text_color">#4fc676</color>
+    <color name="gray_color">#B3BDB4B3</color>
+    <color name="grey_color">#B3707070</color>
+    <color name="alert_title_color">#434343</color>
+    <color name="black_text_color">#000000</color>
+    <color name="screen_title">#555555</color>
+    <color name="divider_color">#DCDCDC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_green">#2db349</color>
+
+    <color name="color_dashboard_title">#F86342</color>
+    <color name="transparent_white">#BBFFFFFF</color>
+    <color name="sidebar_divider_color">#f6f6f6</color>
+    <color name="transparent_purple">#908a4a9e</color>
+    <color name="transparent_gray">#B36c6c6c</color>
+
+    <!--side bar items color-->
+    <color name="sidebar_dashboard_title_color">#ff2d55</color>
+    <color name="sidebar_maintienance_title_color">#F37022</color>
+    <color name="sidebar_parcel_title_color">#0074BD</color>
+    <color name="sidebar_resources_title_color">#2BD34A</color>
+    <color name="sidebar_events_title_color">#D8A404</color>
+    <color name="sidebar_information_title_color">#87A259</color>
+    <color name="sidebar_help_title_color">#6E6E6E</color>
+    <color name="sidebar_logout_title_color">#F35F5B</color>
+    <color name="sidebar_item_selected_bg">#F5F5F5</color>
+    <color name="transparent_orange">#B3ff8d49</color>
+    <color name="transparent_yellow">#B3FFBB54</color>
+    <color name="purple">#B38d70df</color>
+    <color name="transparent_green">#B35ED277</color>
+    <color name="dashboard_green">#5ED277</color>
+    <color name="green">#5ed277</color>
+    <color name="transparent_red">#B3F57C7C</color>
+    <color name="transparent_blue">#B352aae3</color>
+    <color name="gray_status">#9a9a9a</color>
+    <color name="olive_green">#B393ab6c</color>
+    <color name="maintenance_detail_red">#E52823</color>
+
+    <color name="parcel_label_color">#5686C2</color>
+    <color name="internet_error_bg_color">#ED5D55</color>
+    <color name="parcel_title_color">#6889AB</color>
+    <color name="parcel_list_title_bg">#F3F3F3</color>
+    <color name="parcel_item_label_color">#A5A5A5</color>
+
+    <!--login-->
+    <color name="login_button_color">#FFCE34</color>
+    <color name="login_button_color_dark">#FFCE25</color>
+    <color name="app_bg">#E9E9E9</color>
+    <color name="login_edit_text_border_color">#AE80BC</color>
+    <color name="login_edit_text_hint_color">#6B6B6B</color>
+
+    <!---->
+    <color name="floating_button_color">#2DB34A</color>
+
+
+    <!--new maintenance screen-->
+    <color name="maintenace_date_color_gray">#6c6c6c</color>
+    <color name="new_maintenance_title_color">#555555</color>
+    <color name="new_maintenance_edit_text_hint_color">#A5A5A5</color>
+    <color name="new_maintenance_button_bg_color">#2DB34A</color>
+    <color name="maintenance_detail_label_color">#686868</color>
+
+    <!--dashboard-->
+    <color name="dashboard_tab_divider_color">#ffffff</color>
+    <color name="dashboard_tab_bg_color">#2DB34A</color>
+    <color name="dashboard_title_bg">#F3F3F3</color>
+    <color name="dashboard_list_title_color">#434343</color>
+    <color name="dashboard_list_date_color">#8E8E8E</color>
+    <color name="dashbord_status_color_green">#2DB34A</color>
+    <color name="dashbord_status_color_red">#2DB34A</color>
+    <color name="dashbord_status_color_orange">#2DB34A</color>
+
+    <!--transparent bg-->
+    <color name="transparent_bg">#00FFFFFF</color>
+    <color name="divider_color_gray">#222222</color>
+
+    <!--Dashboard Screen-->
+
+    <color name="dashboard_maintenance_screen_bg">#f36f21</color>
+    <color name="dashboard_card_bg">#CCFFFFFF</color>
+    <color name="dashboard_divider_color">#20505050</color>
+
+    <color name="button_bg_green">#2EB34A</color>
+
+    <color name="skyblue">#B359A9DC</color>
+
+</resources>

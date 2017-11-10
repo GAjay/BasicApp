@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"
+        android:checked="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="Please Select"
+        android:textColor="@color/black_text_color"
+        android:drawablePadding="10dp"
+        android:id="@+id/choice_radio_button"/>
+
+
+</LinearLayout>

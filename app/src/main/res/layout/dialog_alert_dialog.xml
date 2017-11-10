@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_dialog_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/alert_dialog_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="Dialog title"
+        android:textColor="@color/alert_title_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/sidebar_divider_color" />
+
+
+    <TextView
+        android:id="@+id/alert_dialog_content_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Dialog content goes  here."
+        android:textColor="@color/alert_title_color"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/negative_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="NO"
+            android:textColor="@color/alert_negative_text_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/positive_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="YES"
+            android:textColor="@color/alert_positive_text_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
